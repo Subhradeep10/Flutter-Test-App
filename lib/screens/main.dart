@@ -1,4 +1,5 @@
 import 'package:first_app/screens/homepage.dart';
+import 'package:first_app/screens/loginpage.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -12,7 +13,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       routes: {
-        "/": (context) => Homepage(),
+        "/": (context) => LoginPage(),
+        '/LoginPage': (context) => Homepage(),
       },
     );
   }

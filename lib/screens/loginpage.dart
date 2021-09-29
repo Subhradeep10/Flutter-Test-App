@@ -6,9 +6,13 @@ class LoginPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Material(
+      color: Colors.blueAccent,
       child: Center(
         child: Center(
-          child: Text("Login Page"),
+          child: Text(
+            "Login Page",
+            style: TextStyle(fontSize: 24.0, color: Colors.white),
+          ),
         ),
       ),
     );
