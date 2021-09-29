@@ -8,10 +8,9 @@ class Homepage extends StatelessWidget {
     int days = 30;
     String coding = "Coding";
     return Scaffold(
-      drawer: Drawer(),
       appBar: AppBar(
-        backgroundColor: Colors.deepOrange,
-        title: Title(color: Colors.black, child: Text("Flutter Sample")),
+        backgroundColor: Colors.purple[900],
+        title: Center(child: Text("Flutter Tutorial")),
       ),
       body: Center(
         child: Container(
