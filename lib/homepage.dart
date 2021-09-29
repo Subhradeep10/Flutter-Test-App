@@ -7,8 +7,13 @@ class Homepage extends StatelessWidget {
   Widget build(BuildContext context) {
     int days = 30;
     String coding = "Coding";
-    return Material(
-      child: Center(
+    return Scaffold(
+      drawer: Drawer(),
+      appBar: AppBar(
+        backgroundColor: Colors.deepOrange,
+        title: Title(color: Colors.black, child: Text("Flutter Sample")),
+      ),
+      body: Center(
         child: Container(
           child: Text("Welcome to $days days of $coding"),
         ),
