@@ -10,7 +10,7 @@ class Homepage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.purple[900],
-        title: Center(child: Text("Flutter Tutorial")),
+        title: Center(child: Text("Catalogue")),
       ),
       body: Center(
         child: Container(
