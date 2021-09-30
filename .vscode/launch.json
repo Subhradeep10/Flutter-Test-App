@@ -8,7 +8,7 @@
             "name": "first_app",
             "request": "launch",
             "type": "dart",
-            "program": "lib/screens/main.dart"
+            "program": "lib/main.dart"
         },
         {
             "name": "first_app (profile mode)",
